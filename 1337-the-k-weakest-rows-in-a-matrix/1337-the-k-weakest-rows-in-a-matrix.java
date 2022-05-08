@@ -1,7 +1,6 @@
 class Solution {
     public int[] kWeakestRows(int[][] mat, int k) {
         int[] rowsCount = new int[mat.length];
-        int[] weakestRows = new int[k];
         int[] weakestRowsIndex = new int[k];
         int min;
         int minIndex;
